@@ -1,16 +1,13 @@
 
 ---
 cluster: 
-  - "ascend"
-  - "pitzer"
+  - "casper"
 form:
-  - auto_accounts
+  - bc_account
   - bc_num_hours
   - working_dir
-  - auto_modules_app_code_server
+  - bc_queue
 attributes:
-  auto_modules_app_code_server:
-    default: false
   working_dir:
     widget: "path_selector"
     label: "Working Directory"
